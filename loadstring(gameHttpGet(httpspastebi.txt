@@ -1,1 +1,538 @@
-loadstring(game:HttpGet("https://pastebin.com/raw/Cwvw9jDA"))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Gz_ebihurai Hub",
+   LoadingTitle = "Rayfield Interface Suite",
+   LoadingSubtitle = "by Sirius",
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+   Discord = {
+      Enabled = false,
+      Invite = "sirius", -- The Discord invite code, do not include discord.gg/
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
+   KeySystem = true, -- Set this to true to use our key system
+   KeySettings = {
+      Title = "Sirius Hub",
+      Subtitle = "Key System",
+      Note = "Join the discord (discord.gg/paZRwy2zhN)",
+      FileName = "SiriusKey",
+      SaveKey = true,
+      GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+      Key = "Ebihurai"
+   }
+})
+
+local Tab = Window:CreateTab("Home", 262961936)
+
+local Section = Tab:CreateSection("Section Example")
+
+local Button = Tab:CreateButton({
+   Name = "Discord",
+   Callback = function()
+      local gui = Instance.new("ScreenGui")
+local frame = Instance.new("Frame")
+local textLabel = Instance.new("TextLabel")
+local copyButton = Instance.new("TextButton")
+
+gui.Parent = game.CoreGui
+
+frame.Size = UDim2.new(0, 300, 0, 100)
+frame.Position = UDim2.new(0.5, -150, 0.5, -50)
+frame.Parent = gui
+
+textLabel.Size = UDim2.new(1, 0, 0.5, 0)
+textLabel.Text = "https://discord.gg/paZRwy2zhN"
+textLabel.Parent = frame
+
+copyButton.Size = UDim2.new(1, 0, 0.5, 0)
+copyButton.Position = UDim2.new(0, 0, 0.5, 0)
+copyButton.Text = "Link Copy"
+copyButton.Parent = frame
+
+copyButton.MouseButton1Click:Connect(function()
+    setclipboard("https://discord.gg/paZRwy2zhN")
+    gui:Destroy()
+end)
+
+   end,
+})
+
+local Tab = Window:CreateTab("ebi Script", 262961936)
+
+local Section = Tab:CreateSection("Section Example")
+
+local Button = Tab:CreateButton({
+   Name = "ebi GUi",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/z6RfXNhV"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Fling things and people", 4483362458)
+
+local Section = Tab:CreateSection("Section Example")
+
+local Button = Tab:CreateButton({
+   Name = "BlizTBr",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/BlizTBr/scripts/main/FTAP.lua"))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "VHS4",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/fgdergewrgegr/SVH/main/VHSV4"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Verbal-hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Fling-Things-and-People-FTAP-Verbal-Hub-16541"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Elysium-Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-Blackhole-9395"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "blackhole",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxwoey/ElysiumHub/main/oxwoey.lua", true))()
+   end,
+})
+
+local Tab = Window:CreateTab("Blox fruits", 4483362458)
+
+local Section = Tab:CreateSection("Section Example")
+
+local Button = Tab:CreateButton({
+   Name = "Redz Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Min New hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/main/MinGamingEng"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Youm Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/YoumHub", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Demon Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/farrelghibran/demon/main/source.app"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Astral Hub",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/Augustzyzx/A-s-t-r-a-l/main/BF.html'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "YTB Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/KhanhTranVan/Guest/main/thankforbuying"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Kind Hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Jadelly261/BloxFruits/main/KindHub"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Bounty script",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/ItzWindy01/WindyXBypass/main/BountyLoadder.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Toilet tower", 4483362458)
+
+local Section = Tab:CreateSection("Section Example")
+
+local Button = Tab:CreateButton({
+   Name = "Toilet tower1",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/c3cSPAiZ"))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Toilet tower2",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/TowerDefenseSimulator.lua",true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Toilet tower3",
+   Callback = function()
+      loadstring(game:HttpGet("https://paste.ee/r/2xLrA", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Toilet tower4",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/EP-70!-Skibidi-Toilet-Tower-Defense-defens-v6-10085", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Toilet tower5",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/NEW!-TOILET-TOWER-DEFENSE!-NEW-TOILET-DEFENSE-SCRIPT-9358", true))()
+   end,
+})
+
+local Tab = Window:CreateTab("Blade Ball", 4483362458)
+
+local Section = Tab:CreateSection("Section Example")
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball1",
+   Callback = function()
+      loadstring(game:HttpGet(("https://raw.githubusercontent.com/Kozukiremboukk/Aqui-mesml/main/blades")))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball2",
+   Callback = function()
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5945467f3b9388503ca653c0ea49cba.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball3",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaIsNoname/Releases_bladeball_bakahub/main/Blade"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball4",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/eng"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball5",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball6",
+   Callback = function()
+      loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball7",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/GrandmasterOfLife123/lua/main/releasedbladeball.lua"))()  
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Blade Ball8",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SoyAdriYT/PitbullHub/main/Scripting", true))() 
+   end,
+})
+
+local Tab = Window:CreateTab("Player", 4483362458)
+
+local Section = Tab:CreateSection("Section Example")
+
+
+local Toggle = Tab:CreateToggle({
+   Name = "JUMP",
+   CurrentValue = false,
+   Flag = "JUMP", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      -- 無限ジャンプスクリプト
+local infjmp = true
+
+game:GetService("UserInputService").JumpRequest:Connect(function()
+    if infjmp then
+        game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+    end
+end)
+
+   -- The variable (Value) is a boolean on whether the toggle is true or false
+   end,
+})
+
+local Slider = Tab:CreateSlider({
+   Name = "Power",
+   Range = {0, 100},
+   Increment = 10,
+   Suffix = "Power",
+   CurrentValue = 10,
+   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   -- The function that takes place when the slider changes
+   -- The variable (Value) is a number which correlates to the value the slider is currently at
+   end,
+})
+
+local Toggle = Tab:CreateToggle({
+   Name = "SPD",
+   CurrentValue = false,
+   Flag = "SPD", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      -- 無限ジャンプスクリプト
+local infjmp = true
+
+game:GetService("UserInputService").JumpRequest:Connect(function()
+    if infjmp then
+        game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+    end
+end)
+
+   -- The variable (Value) is a boolean on whether the toggle is true or false
+   end,
+})
+
+local Slider = Tab:CreateSlider({
+   Name = "Power",
+   Range = {0, 100},
+   Increment = 10,
+   Suffix = "Power",
+   CurrentValue = 10,
+   Flag = "Slider1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+   -- The function that takes place when the slider changes
+   -- The variable (Value) is a number which correlates to the value the slider is currently at
+   end,
+})
+
+local Tab = Window:CreateTab("Universsal GUI", 4483362458)
+
+local Section = Tab:CreateSection("Section Example")
+
+Rayfield:Notify({
+   Title = "Script execution completed",
+   Content = "Notification Content",
+   Duration = 6.5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local Button = Tab:CreateButton({
+   Name = "IY",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "NA",
+   Callback = function()
+      loadstring(game:HttpGet("https://github.com/FilteringEnabled/NamelessAdmin/blob/main/Source?raw=true"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Freeze",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Fly",
+   Callback = function()
+      loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "VFly",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/tomoneko2222/vfly/main/1"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "AIM BOT",
+   Callback = function()
+      loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Fov-aimbot-mobile-7677"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "SystemBroken",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Noclij",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/aWteNwmJ"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "BLOX FRUITS",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SkibidiSupremacy/Loader.xyz/main/Loader.Blurk%20ST%20%3A%20G"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Chat Bypass",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/SkireScripts/Ouxie/main/Projects/simplebypass.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Showing R6 Animations",
+   Callback = function()
+      loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Disbelief",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/g9GCfCgg"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Script hub",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/OneCreatorX/OneCreatorX/main/UIs/UIGenerales/GeneralesUI.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "A-Train",
+   Callback = function()
+      loadstring(game:HttpGet("https://github.com/l0ckerV5/Roblox-Scripts/raw/main/The%20Strongest%20Battlegrounds/Custom%20Character/A-Train"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "FPS",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/Q0BhVUHx"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Btool",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-BTools-12430"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "R15 animation",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Permanent-sonic-animation-lol-run-jump-and-climb-animation-17452"))()
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "fling all",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/when-the-Fling-all-script-Universal-17690"))()
+
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Improved image quality",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Shaders-17200"))()
+
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Arm operation",
+   Callback = function()
+      loadstring(game:HttpGet("https://rawscripts.net/raw/Untitled-Game-Fake-Vr-but-only-r6-17644"))()
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Inventory",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/Parkour/main/Fe%20Parkour'))()
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Fe Bypass Gui",
+   Callback = function()
+      loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\103\48\48\108\88\112\108\111\105\116\101\114\47\103\48\48\108\88\112\108\111\105\116\101\114\47\109\97\105\110\47\70\101\37\50\48\98\121\112\97\115\115\34\44\32\116\114\117\101\41\41\40\41\10")() 
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "F3X SandBox: Kill All, Big Head, Fe",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/Enes5858/Enes5858/main/LxhhBBy2%20(1).txt"))()
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Hit BOX",
+   Callback = function()
+      loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Update-script-hitbox-9326"))()
+
+   end,
+})
+
+local Paragraph = Tab:CreateParagraph({Title = "Paragraph Example", Content = "Paragraph Example"})
+
