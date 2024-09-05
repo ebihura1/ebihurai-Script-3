@@ -535,4 +535,3 @@ local Button = Tab:CreateButton({
 })
 
 local Paragraph = Tab:CreateParagraph({Title = "Paragraph Example", Content = "Paragraph Example"})
-
